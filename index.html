@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>HomePage</title>
+</head>
+<body>
+    <header>
+        <div class="section_1">
+
+        </div>
+        <div class="section_2">
+
+        </div>
+        <div class="section_3">
+            <div class="section_3_partion_1">
+                <div class="partition_1_head">
+                    <div class="logo_container">
+                        <div class="logo">
+                        </div>
+                    </div>
+                    <nav>
+                        <ul>
+                            <li><a href="#">Home</a></li>
+                            <li><a href="#Apropos">Apropos</a></li>
+                            <li><a href="#section_projet">Travail</a></li>
+                            <li><a href="#">CV</a></li>
+                            <li><a href="#">Contact</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <h1 class="message">welcome</h1>
+            </div>
+        </div>
+    </header>
+    <!-- section à-propos -->
+    <section class="about" id="Apropos">
+        <h1>A propos</h1>
+        <div class="about-info">
+            <div class="about-img">
+                <img src="photos/3.jpeg" alt="Geeksforgeeks">
+            </div>
+            <div>
+            <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae, consequuntur dignissimos dicta iure vero amet! Rerum vitae modi consectetur laboriosam? Ex atque fugit asperiores libero illum veritatis provident nobis animi.
+            </p>
+            </div>
+        </div>
+    </section>
+    <!-- fin section à-propos-->
+    <!-- section projet-->
+    <section>
+        <div id="section_projet">
+            <h1>PROJET</h1>
+          </div>
+    </section>
+    <section class="project">
+    <div class="card_1">
+        <img src="photos/4.jpeg" alt="Avatar" style="width:100%">
+        <div class="container">
+          <h4><b>Projet 1 </b></h4> 
+        </div>
+      </div>
+      <div class="card_2">
+        <img src="photos/4.jpeg" alt="Avatar" style="width:100%">
+        <div class="container">
+          <h4><b>Projet 2</b></h4> 
+        </div>
+      </div>
+      <div class="card_3">
+        <img src="photos/4.jpeg" alt="Avatar" style="width:100%">
+        <div class="container">
+          <h4><b>Projet 3</b></h4> 
+        </div>
+      </div>
+    </section>
+    <!--fin section projet-->
+    <!--section cv-->
+    <section>
+        <div class="section_cv">
+            <h1>Mon CV</h1>
+            <button class="button_1"><a href="CV_KOUAME Marc-Aurel (1).pdf" download="CV_KOUAME Marc-Aurel.pdf">download me</a></button>
+          </div>
+    </section>
+    <!--end section cv-->
+    <!--section formulaire-->
+    <section id="contact">
+    <h1>Formulaire de contact</h1>
+    <form>
+        <label for="name">Votre nom <span style="color: red">*</span></label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Votre adresse e-mail <span style="color: red">*</span></label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="message">Message <span style="color: red">*</span></label>
+        <textarea id="message" name="message" rows="4" required></textarea>
+
+        <input type="submit" value="Envoyer">
+    </form>
+    </section>
+    <!--end formulaire-->
+    <!-- Pied de page -->
+    <footer>
+        <p>&copy; 2024 Mon Portfolio. Tous droits réservés.</p>
+    </footer>
+</body>
+
+</html>
